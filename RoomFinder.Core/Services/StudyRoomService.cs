@@ -1,4 +1,5 @@
 ﻿using RoomFinder.Core.Services.IServices;
+using RoomFinder.DataAccess.Repository.IRepository;
 using RoomFinder.Model.Model;
 using System;
 using System.Collections.Generic;

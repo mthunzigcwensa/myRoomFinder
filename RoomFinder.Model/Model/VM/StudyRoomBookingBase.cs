@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RoomFinder.Model.ModelValidations;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -23,7 +24,7 @@ namespace RoomFinder.Model.Model.VM
         public string Email { get; set; }
 
         [DataType(DataType.Date)]
-        //[DateInFuture]
+        [DateInFuture]
         public DateTime Date { get; set; }
 
 
